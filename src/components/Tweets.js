@@ -12,7 +12,7 @@ class Tweet extends Component {
   };
   toParent = (e, id) => {
     e.preventDefault();
-    // todo: Redirect to parent Tweet
+    // todo: Redirect to Parent Tweet
   };
   render() {
     const { tweet } = this.props;
